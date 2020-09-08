@@ -1,6 +1,6 @@
 # Always Be Closing #
 
-This was a project from a course on Linear Regression (a supervised machine learning technique for quantitiative analysis). Below is the prompt from the client:
+This was a project from a course on Linear Regression (a supervised machine learning technique for quantitative analysis). Below is the prompt from the client:
 
 > My name is Jim Armilay, and I am a real estate broker in the state of Virginia. I have been moderately successful in the past five years selling large high-end homes, but recently more rival brokers have been moving into this market. I think one way I can gain an advantage in this market is if I start to use data to study the home prices, but I'm not sure how to start. I recorded some of my recent sales with the Price in dollars and Square feet (Sqft) for each of the sales. The data is included in the separate attachment. 
 > 
