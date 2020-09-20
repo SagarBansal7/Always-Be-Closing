@@ -39,9 +39,7 @@ Yes, this data can be used as an evidence to persuade your client that the estim
 
 Unfortunately, the model is restricted to make predication for houses of area that ranges from 850 to 3262. The house in question with the area of 3750 square foot is larger than houses in the provided data. Conceptually, there could be other factors involved in predicting house prices of this big area such as house layout, useable space and potential future. For instance, the buyer of a large house may want to check the layout so that he/she doesn’t need to spend more on renovating the place which can be a really huge amount. In contrast, buyer of a small house may not need to worry as any modification won’t be that expensive given the house area. This might alternate the linear correlation that I see in the data currently. Thus, the model may mislead your second client.
 
-### Appendix
-
-#### 1) Statistical analysis:
+### Statistical analysis:
 
 I visualized the predictor and response in individual box plots to get the five-number summary (Minimum, First quartile, Median, Third quartile, Maximum). I discovered that the five number summaries of Price and Square foot are (307500, 394250, 502500, 585625, 840000) and (850, 1419, 1739.5, 2306.25, 3262), respectively. As the variables are linearly correlated (Figure 3), I defined the linear relationship between the two as the following:
 
