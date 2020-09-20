@@ -33,6 +33,10 @@ I did some numerical and visual exploration to know how the data looks like and 
 
 Yes, this data can be used as an evidence to persuade your client that the estimated price of $300,000 is less for a house of 1500 square foot (Table 4). Although the possible individual prediction estimates would range roughly between $259,563.88 and $620,527.28 (which includes your client’s estimates), the average estimate range is roughly between $404,926.84 and $475,164.32 (which is more than your client’s estimate). This means that on average houses of 1500 square foot area are sold in the range of $404,926.84 and $475,164.32. Hence, your client should consider re-evaluating his/her judgement.
 
+#### Table 4: 95% Confidence and Prediction Intervals for House Area of 1500 Sqft 
+
+![Table 4](https://user-images.githubusercontent.com/37155988/93033723-736cc900-f605-11ea-91e5-cbdf8b500c30.png)
+
 Unfortunately, the model is restricted to make predication for houses of area that ranges from 850 to 3262. The house in question with the area of 3750 square foot is larger than houses in the provided data. Conceptually, there could be other factors involved in predicting house prices of this big area such as house layout, useable space and potential future. For instance, the buyer of a large house may want to check the layout so that he/she doesn’t need to spend more on renovating the place which can be a really huge amount. In contrast, buyer of a small house may not need to worry as any modification won’t be that expensive given the house area. This might alternate the linear correlation that I see in the data currently. Thus, the model may mislead your second client.
 
 ### Appendix
@@ -46,6 +50,10 @@ I visualized the predictor and response in individual box plots to get the five-
 where Y is the price in USD and X is the house area in square foot. β0 and β1 are the intercept and slope of the predictor, respectively.
 
 Upon fitting the model, I got the estimated co-efficient β0 and β1 as 171331.47 and 179.14, respectively (Table 3). From table 2, I can note that the R square for this model came out to be .604 which means that 60.4% of the variability in this response is explained by this model. Although it is not ideal, I can still use the model to make the predictions. Similarly, the standard error of the estimate is 87111.55 which is not great either but still allowable relative to the mean of the house price.  
+
+#### Table 2: Model Summary
+
+![Table 2](https://user-images.githubusercontent.com/37155988/93033721-72d43280-f605-11ea-82fb-14ebf54fd502.png)
 
 I then did hypothesize testing for both the intercept and slope at 5% significance levels (Table 3). For β0, the null and alternative hypothesis were as follows: H0: β0 = 0; HA: β0 ≠ 0. Since the P-value (0.001) is less than 0.05 at 5% significance level, I reject the null hypothesis i.e., β0 is statistically significant and cannot be equated to zero. For β1, the null and alternative hypothesis were as follows: H0: β1 = 0; HA: β1 ≠ 0. Since the P-value for β1 (0.000) is less than 0.05 at 5% significance level, I reject the null hypothesis i.e., β1 is statistically significant and there is some correlation between Square foot and Price.
 
